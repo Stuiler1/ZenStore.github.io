@@ -1,0 +1,144 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  nav ul li button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .main {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    padding: 20px;
+  }
+  
+  .products {
+    flex: 1;
+    text-align: left;
+  }
+  
+  .product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .product-item {
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: left;
+  }
+  
+  .product-item img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .product-item h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  
+  .product-item p {
+    margin-bottom: 10px;
+  }
+  
+  .product-item button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .comments {
+    max-width: 320px;
+    width: 100%;
+  }
+  
+  .comments-group {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+  
+  .comments-img {
+    display: block;
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+  }
+  
+  footer {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+  } 
+
+  .contact-info,
+.social-media {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    display: inline-block; /* Para que se muestren en línea */
+}
+
+.contact-info h2,
+.social-media h2 {
+    margin-top: 0;
+}
+
+.contact-info ul,
+.social-media ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-info ul li,
+.social-media ul li {
+    margin-bottom: 5px;
+}
+
+.social-media ul li a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.social-media ul li a:hover {
+    text-decoration: underline;
+}

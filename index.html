@@ -1,25 +1,108 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <title>Proyecto ZenStore</title>
-    </head>
-    <body>
-<h1>Esta es mi pagina web</h1>
-<h2>Tienda virtual ZenStore</h2>
-<h3> “ZenStore” <br>
-    Modelo de negocio:
-    -Rubro de ventas e importaciones <br>
-    ¿A que destinatarios va dirigida el diseño de la página? <br>
-    -A todo el público en general, preferentemente a personas que buscan adquirir nuevos e innovadores productos que no se encuentran en el país, satisfaciendo la necesidad de ese sector. 
-    <br>
+<html lang="es">
 
-    ¿Como la página web va a satisfacer una problemática de negocio? <br>
-    A lo largo de este proyecto se pueden presentar distintas problemáticas, pero para resolverlas vamos a explorar en los siguientes puntos:
-    Adaptación a la era digital: <br>
-    -En un mundo cada vez más digitalizado en la cual un alto porcentaje de personas disponen de un celular. 
-    <br>El objetivo de esta tienda virtual es poner a disposición de los futuros consumidores una pagina web amigable e interactiva para la fácil comprensión del usuario
-    Optimización de pedidos: <br>
-    -Al contar con una tienda 100% virtual simplificaremos el proceso de realizar un pedido de compra asegurando así la mayor </h3>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ZenStore</title>
+  <link rel="stylesheet" href="estilo.css">
+</head>
 
-    </body>
-        </html>	
+<body>
+  <header>
+    <h1>ZenStore</h1>
+    <nav>
+      <ul>
+        <li><button type="button">Inicio</button></li>
+        <li><button type="button">¿Quiénes somos?</button></li>
+        <li><button type="button">Catálogo</button></li>
+        <li><button type="button">Contactame</button></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="main" id="main">
+    <section class="products">
+      <h2>Catálogo de productos</h2>
+      <div class="product-grid">
+        <div class="product-item" data-product-id="1">
+          <img src="product1.jpg" alt="Producto 1">
+          <h3>Producto 1</h3>
+          <p>S/100.00</p>
+          <button formaction="#">Agregar al carrito</button>
+        </div>
+
+        <div class="product-item" data-product-id="2">
+          <img src="product2.jpg" alt="Producto 2">
+          <h3>Producto 2</h3>
+          <p>S/50.00</p>
+          <button formaction="#">Agregar al carrito</button>
+        </div>
+
+        <div class="product-item" data-product-id="3">
+          <img src="product3.jpg" alt="Producto 3">
+          <h3>Producto 3</h3>
+          <p>S/200.00</p>
+          <button formaction="#">Agregar al carrito</button>
+        </div>
+      </div>
+    </section>
+
+    <aside class="comments">
+      <ul class="comments-group">
+        <li class="comments-item">
+          <img class="comments-img" src="https://images.samsung.com/is/image/samsung/assets/co/faqs-help-contents/ha/refrigeradores/abrir-cubitera/refris_copia.png" />
+
+          <p class="comments-text">
+            Neveras y congeladores con tecnología avanzada: Las neveras y congeladores modernos pueden venir equipados con
+            características como dispensadores de agua y hielo, controles de temperatura precisos y sistemas de almacenamiento
+            flexibles para mantener los alimentos frescos durante más tiempo.
+          </p>
+        </li>
+
+        <li class="comments-item">
+          <img class="comments-img" src="https://pbs.twimg.com/profile_images/1548163781645111297/r0f6A4W1_400x400.jpg" />
+
+          <p class="comments-text">
+            Lavadoras y secadoras de última generación: Estos electrodomésticos están constantemente siendo actualizados con nuevas
+            características como ciclos de lavado más eficientes, capacidades de carga más grandes y tecnología inteligente para
+            ahorrar energía, también contamos con todo tipo de marcas
+          </p>
+        </li>
+
+        <li class="comments-item">
+          <img class="comments-img" src="https://excelso77.com/wp-content/uploads/2018/11/caracteristicas-de-las-maquinas-de-espresso-profesional.jpg" />
+
+          <p class="comments-text">
+            Cafeteras y máquinas de espresso: Las nuevas cafeteras y máquinas de espresso pueden ofrecer una variedad de opciones de
+            preparación de café, desde café tradicional hasta bebidas especializadas como capuchinos y lattes. Algunas incluso
+            tienen funciones de programación para preparar café automáticamente a una hora específica.
+          </p>
+        </li>
+      </ul>
+    </aside>
+  </main>
+
+  <footer>
+    <div class="contact-info">
+        <h2>Contacto</h2>
+        <p>Para consultas y pedidos, contáctanos:</p>
+        <ul>
+            <li>Teléfono: 938920899</li>
+            <li>Correo electrónico: info@zenstore.com</li>
+            <li>Dirección: Av. Aviación, Arequipa, Perú</li>
+        </ul>
+    </div>
+    <div class="social-media">
+        <h2>Síguenos en nuestras redes sociales</h2>
+        <ul>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Instagram</a></li>
+        </ul>
+    </div>
+  </footer>
+
+</body>
+
+</html>
