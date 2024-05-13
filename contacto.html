@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Catálogo - ZenStore</title>
-    <link rel="stylesheet" href="styles3.css">
+    <title>Contacto - ZenStore</title>
+    <link rel="stylesheet" href="styles4.css">
 </head>
 <body>
     <header>
@@ -20,44 +20,34 @@
         </nav>
     </header>
 
-    <section class="catalogo-header">
+    <section class="contacto-header">
         <div class="container">
-            <h2>Descubre nuestros productos</h2>
-            <p>Explora nuestra selección de productos innovadores y de alta calidad.</p>
+            <h2>Contáctanos</h2>
+            <p>¿Tienes alguna pregunta o comentario? ¡Nos encantaría saber de ti!</p>
+            <p>A continuación te pediremos que nos brindes información completando el siguiente formulario que se presenta a continuación.</p>
         </div>
     </section>
 
-    <section class="productos">
+    <section class="formulario-contacto">
         <div class="container">
-            <div class="producto">
-                <img src="producto1.jpg" alt="Producto 1">
-                <h3>Producto 1</h3>
-                <p>Precio: S/100.00</p>
-            </div>
-            <div class="producto">
-                <img src="producto2.jpg" alt="Producto 2">
-                <h3>Producto 2</h3>
-                <p>Precio: S/80.00</p>
-            </div>
-            <div class="producto">
-                <img src="producto3.jpg" alt="Producto 3">
-                <h3>Producto 3</h3>
-                <p>Precio: S/120.00</p>
-            </div>
-            <div class="producto">
-                <img src="producto4.jpg" alt="Producto 4">
-                <h3>Producto 4</h3>
-                <p>Precio: S/150.00</p>
-            </div>
-            <div class="producto">
-                <img src="producto5.jpg" alt="Producto 5">
-                <h3>Producto 5</h3>
-                <p>Precio: S/200.00</p>
-                <p><strong>Llegada estimada:</strong> Dentro de dos semanas</p>
-            </div>
+            <h3>Completa el formulario de contacto:</h3>
+            <form action="#" method="post">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+                <button type="submit">Enviar Mensaje</button>
+            </form>
         </div>
     </section>
-    
+
+    <!-- Mapa ficticio -->
+    <div id="map"></div>
     <footer>
         <div class="contact-info">
             <h2>Contacto</h2>
@@ -76,6 +66,9 @@
               <li><a href="https://www.instagram.com/zenstore321/">Instagram</a></li>
           </ul>
       </div>
-    </footer>
+</footer>
+
+    
 </body>
+
 </html>

@@ -1,0 +1,181 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos generales */
+body {
+    
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.container, h2 {
+    margin-top: 20px
+}
+/* Encabezado */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+/* Sección de presentación */
+.presentacion {
+    
+    background-color: #f4f4f4;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.presentacion h2 {
+    
+    color: #333;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.presentacion p {
+    
+    color: #666;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Sección de historia */
+.historia {
+    padding: 50px 0;
+    background-color: #fff;
+}
+
+.historia h3 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.historia p {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+/* Caja de imágenes de historia */
+.historia-img {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.historia-img img {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 5px;
+}
+
+/* Sección de equipo */
+.equipo {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+}
+
+.equipo h3 {
+    color: #333;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Caja de miembros del equipo */
+.miembro {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.miembro img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.miembro h4 {
+    color: #333;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.miembro p {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Pie de página */
+footer {
+    margin-top: 30px;
+    background: #570837;
+    color: #fff;
+    padding: 30px 0;
+    text-align: center;
+  }
+  
+  footer ul {
+    list-style-type: none;
+  }
+  
+  footer ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  footer ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  footer ul li a:hover {
+    text-decoration: underline;
+  }
+  
+
+footer p {
+    margin-bottom: 0;
+    padding: 10px 0;
+}
