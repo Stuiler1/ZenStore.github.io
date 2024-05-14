@@ -4,7 +4,6 @@
     box-sizing: border-box;
 }
 
-/* Estilos generales */
 body {
     font-family: Arial, sans-serif;
     background-color: #f9f9f9;
@@ -20,7 +19,7 @@ body {
 .container, h2 {
     margin-top: 20px
 }
-/* Encabezado */
+
 header {
     background-color: #d8b320;
     color: #fff;
@@ -55,7 +54,7 @@ nav ul li a:hover {
     background-color: #555;
 }
 
-/* Sección de formulario de contacto */
+
 .contacto {
     padding: 50px 0;
     background-color: #fff;
@@ -101,13 +100,6 @@ nav ul li a:hover {
     background-color: #555;
 }
 
-/* Mapa */
-.mapa {
-    height: 400px;
-    margin-top: 50px;
-}
-
-/* Pie de página */
 footer {
     margin-top: 30px;
     background: #570837;
