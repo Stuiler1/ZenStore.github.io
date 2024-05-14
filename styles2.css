@@ -5,7 +5,6 @@
     box-sizing: border-box;
 }
 
-/* Estilos generales */
 body {
     
     font-family: Arial, sans-serif;
@@ -22,7 +21,7 @@ body {
 .container, h2 {
     margin-top: 20px
 }
-/* Encabezado */
+
 header {
     background-color: #d8b320;
     color: #fff;
@@ -57,7 +56,6 @@ nav ul li a:hover {
     background-color: #555;
 }
 
-/* Sección de presentación */
 .presentacion {
     
     background-color: #f4f4f4;
@@ -79,7 +77,6 @@ nav ul li a:hover {
     line-height: 1.6;
 }
 
-/* Sección de historia */
 .historia {
     padding: 50px 0;
     background-color: #fff;
@@ -97,7 +94,6 @@ nav ul li a:hover {
     line-height: 1.8;
 }
 
-/* Caja de imágenes de historia */
 .historia-img {
     text-align: center;
     margin-bottom: 30px;
@@ -109,7 +105,6 @@ nav ul li a:hover {
     border-radius: 5px;
 }
 
-/* Sección de equipo */
 .equipo {
     background-color: #f9f9f9;
     padding: 50px 0;
@@ -122,7 +117,6 @@ nav ul li a:hover {
     margin-bottom: 30px;
 }
 
-/* Caja de miembros del equipo */
 .miembro {
     text-align: center;
     margin-bottom: 30px;
@@ -147,7 +141,6 @@ nav ul li a:hover {
     line-height: 1.6;
 }
 
-/* Pie de página */
 footer {
     margin-top: 30px;
     background: #570837;

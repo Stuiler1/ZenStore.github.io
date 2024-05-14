@@ -4,7 +4,6 @@
     box-sizing: border-box;
 }
 
-/* Estilos generales */
 body {
     font-family: Arial, sans-serif;
     background-color: #f9f9f9;
@@ -18,7 +17,6 @@ body {
     padding: 0 20px;
 }
 
-/* Encabezado */
 header {
     background-color: #d8b320;
     color: #fff;
@@ -53,7 +51,6 @@ nav ul li a:hover {
     background-color: #555;
 }
 
-/* Sección de presentación */
 .presentacion {
     background-color: #f4f4f4;
     padding: 40px 0;
@@ -71,7 +68,6 @@ nav ul li a:hover {
     font-size: 18px;
 }
 
-/* Sección de servicios */
 .servicios {
     padding: 50px 0;
     background-color: #fff;
@@ -94,7 +90,6 @@ nav ul li a:hover {
 }
 
 
-/* Pie de página */
 footer {
     margin-top: 50px;
     background: #570837;
