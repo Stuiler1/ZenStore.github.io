@@ -104,7 +104,6 @@ nav ul li a:hover {
   background-color: #cd5858;
 }
 
-/* Sección de comentarios */
 .comments {
   margin-top: 20px;
 }
@@ -130,7 +129,6 @@ nav ul li a:hover {
   color: #555;
 }
 
-/* Final de la página */
 footer {
   background: #570837;
   color: #fff;
@@ -156,7 +154,7 @@ footer ul li a:hover {
   text-decoration: underline;
 }
 
-/*estilos para la tabla js */
+/*tablajava */
 #tablaVentas {
   width: 100%;
   border-collapse: collapse;
@@ -183,13 +181,13 @@ footer ul li a:hover {
   background-color: #f0f0f0;
 }
 
-/* Estilo para el input de cantidad */
+
 .cantidadInput {
   width: 50px;
   text-align: center;
 }
 
-/* Estilo para el total */
+
 .total {
   font-weight: bold;
 }
